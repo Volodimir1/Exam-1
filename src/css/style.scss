@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Aleo:400,700|Josefin+Sans&display=swap');
+
+// Core
 @import './core/vars';
 @import './core/mixins';
 @import './core/common';
+
+// Common components
+
+
+// Components
+@import './components/header';
+@import './components/section-choose';

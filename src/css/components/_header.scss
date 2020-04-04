@@ -1,0 +1,25 @@
+.header {
+  background-image: url(../images/header.png);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  height: 100vh;
+  max-height: max-content;
+  color: $white;
+  &__container {
+    @include flex(center, center, column);
+    height: 100%;
+  }
+    &__title {
+        margin-bottom: 15px;
+        font-family: $secondary-font;
+        font-size: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+        /* Text style for "Bhromaon" */
+        letter-spacing: 4.8px;
+    }
+    &__text {
+        margin-bottom: 50px;
+    }
+}
