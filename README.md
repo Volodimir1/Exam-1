@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://gulpjs.com">
-    <img height="257" width="114" src="https://gofrag.ru/images/18/Final-Exam-1.jpg">
+    <img height="200" width="400" src="https://gofrag.ru/images/18/Final-Exam-1.jpg">
   </a>
   <h1 align="center">Gulp config</h1>
 </p>
