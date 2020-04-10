@@ -1,0 +1,42 @@
+.button {
+  border: none;
+  text-decoration: none;
+  outline: none;
+  // padding: 12px 25px;
+  @include text($H50, 400, $white);
+  letter-spacing: 1.4px;
+  background-color: $blue;
+  text-transform: uppercase;
+  @include flex(center, center);
+  width: 100%;
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  // box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  @media screen and (min-width: $screen-tablet) {
+    width: fit-content;
+  }
+  @media screen and (min-width: $screen-desktop) {
+    &:hover {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  }
+  // &:active {
+  //   box-shadow: none;
+  // }
+  // &--header {
+  //   background-color: $header-btn-color;
+  // }
+  // &--gallery {
+  //   background-color: $gallery-btn-color;
+  // }
+  // &--subscribe {
+  //   background-color: $subscribe-btn-color;
+  // }
+  // &--blog {
+  //   background-color: $blog-btn-color;
+  // }
+  // &--form {
+  //   background-color: $about-bg-color;
+  // }
+}
